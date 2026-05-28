@@ -80,7 +80,8 @@ Codex: 渲染 Word 文档
 2. 运行 \python scripts/match_projects.py "智能家居 IoT 科技感"\ 匹配相关项目
 3. 将匹配到的项目路径返回给 Codex
 4. Codex 读取这些项目的文档并理解设计模式
-5. Codex 根据 \eferences/concept_plan_schema.md\ 生成 3 个不同风格的方案
+5. Codex 根据 \
+eferences/concept_plan_schema.md\ 生成 3 个不同风格的方案
 6. Codex 创建 Word 文档并保存到配置的输出目录
 
 ### 场景 2: 生成设计说明
@@ -106,7 +107,8 @@ https://www.figma.com/file/xxxxx
    - 如果是 Figma 链接：调用 figma skill 提取设计信息
 2. 运行 \python scripts/match_projects.py "智能家居"\ 匹配相关项目
 3. Codex 读取相关项目的设计说明文档
-4. Codex 根据 \eferences/design_desc_schema.md\ 生成结构化设计说明
+4. Codex 根据 \
+eferences/design_desc_schema.md\ 生成结构化设计说明
 5. Codex 创建 Word 文档并保存
 
 ## 配置
@@ -163,7 +165,7 @@ um_proposal_styles\: 生成概念方案的风格数量（默认 3）
 
 \\\json
 {
-  "version": "1.0",
+  "version": "1.0.0",
   "created_at": "2026-05-27T11:30:00",
   "total_projects": 50,
   "projects": [
@@ -191,8 +193,10 @@ um_proposal_styles\: 生成概念方案的风格数量（默认 3）
 ## 文档模板结构
 
 详细的文档结构定义请参考：
-- \eferences/concept_plan_schema.md\ - 概念方案模板结构
-- \eferences/design_desc_schema.md\ - 设计说明模板结构
+- \
+eferences/concept_plan_schema.md\ - 概念方案模板结构
+- \
+eferences/design_desc_schema.md\ - 设计说明模板结构
 
 ### 概念方案包含章节
 
